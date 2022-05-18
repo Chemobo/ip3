@@ -10,47 +10,51 @@
 <script type="text/javascript" src="/js/index.js"></script>
 <body>
     <form name="exam" id="exam">
-       <div>
-           <p>1. In JavaScript, what is a block of statement?</p>
-           <p><input type="radio" name="quiz1" value="A">A. Conditional block</p>
-           <p><input type="radio" name="quiz1" value="B">B. block that combines a number of statements into a single compound statement</p>
-           <p><input type="radio" name="quiz1" value="C">C. both conditional block and a single statement</p>
-           <p><input type="radio" name="quiz1" value="D">D. block that contains a single statement</p>
-       </div>
-
-       <div>
-        <p>2. The "function" and " var" are known as?</p>
-        <p><input type="radio" name="quiz2" value="A">A. Keywords</p>
-        <p><input type="radio" name="quiz2" value="B">B. Data types</p>
-        <p><input type="radio" name="quiz2" value="C">C. Declaration statements</p>
-        <p><input type="radio" name="quiz2" value="D">D. Prototypes</p>
-
+      <div class="questions">
         <div>
-            <p>3. Which one of the following is known as the Equality operator, which is used to check whether the two values are equal or not?</p>
-            <p><input type="radio" name="quiz3" value="A">A. =</p>
-            <p><input type="radio" name="quiz3" value="B">B. ===</p>
-            <p><input type="radio" name="quiz3" value="C">C. ==</p>
-            <p><input type="radio" name="quiz3" value="D">D. &&</p>
-        </div>    
-
-        <div>
-          <p>4. Which one of the following operator returns false if both values are equal?</p>
-          <p><input type="radio" name="quiz4" value="A">A. !</p>
-          <p><input type="radio" name="quiz4" value="B">B. !==</p>
-          <p><input type="radio" name="quiz4" value="C">C. !=</p>
-          <p><input type="radio" name="quiz4" value="D">D. All of the above</p>
-        </div>        
-                
-        <div>
-          <p>5. A set of unordered properties that, has a name and value is called?</p>
-          <p><input type="radio" name="quiz5" value="A">A. String</p>
-          <p><input type="radio" name="quiz5" value="B">B. Array</p>
-          <p><input type="radio" name="quiz5" value="C">C. Serialized Object</p>
-          <p><input type="radio" name="quiz5" value="D">D. Object</p>
+            <p class="qz">1. In JavaScript, what is a block of statement?</p>
+            <p><input type="radio" name="quiz1" value="A">A. Conditional block</p>
+            <p><input type="radio" name="quiz1" value="B">B. block that combines a number of statements into a single compound statement</p>
+            <p><input type="radio" name="quiz1" value="C">C. both conditional block and a single statement</p>
+            <p><input type="radio" name="quiz1" value="D">D. block that contains a single statement</p>
         </div>
+ 
+        <div>
+         <p class="qz">2. The "function" and " var" are known as?</p>
+         <p><input type="radio" name="quiz2" value="A">A. Keywords</p>
+         <p><input type="radio" name="quiz2" value="B">B. Data types</p>
+         <p><input type="radio" name="quiz2" value="C">C. Declaration statements</p>
+         <p><input type="radio" name="quiz2" value="D">D. Prototypes</p>
+ 
+         <div>
+             <p class="qz">3. Which one of the following is known as the Equality operator, which is used to check whether the two values are equal or not?</p>
+             <p><input type="radio" name="quiz3" value="A">A. =</p>
+             <p><input type="radio" name="quiz3" value="B">B. ===</p>
+             <p><input type="radio" name="quiz3" value="C">C. ==</p>
+             <p><input type="radio" name="quiz3" value="D">D. &&</p>
+         </div>    
+ 
+         <div>
+           <p class="qz">4. Which one of the following operator returns false if both values are equal?</p>
+           <p><input type="radio" name="quiz4" value="A">A. !</p>
+           <p><input type="radio" name="quiz4" value="B">B. !==</p>
+           <p><input type="radio" name="quiz4" value="C">C. !=</p>
+           <p><input type="radio" name="quiz4" value="D">D. All of the above</p>
+         </div>        
+                 
+         <div>
+           <p class="qz">5. A set of unordered properties that, has a name and value is called?</p>
+           <p><input type="radio" name="quiz5" value="A">A. String</p>
+           <p><input type="radio" name="quiz5" value="B">B. Array</p>
+           <p><input type="radio" name="quiz5" value="C">C. Serialized Object</p>
+           <p><input type="radio" name="quiz5" value="D">D. Object</p>
+         </div>
+ 
+         <input type="Button" name="Submit" value="Submit" onclick="check()">
+ 
 
-        <input type="Button" name="Submit" value="Submit" onclick="check()">
-
+      </div>
+       
     </form>
 </body>
 </html>
